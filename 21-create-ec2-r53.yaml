@@ -6,7 +6,7 @@
     zone: aathidya.online
   tasks:
   - name: ansible to install boto3 and botocore
-    ansible.builtin.pip3.9:
+    ansible.builtin.pip:
      name:
        - boto3
        - botocore
