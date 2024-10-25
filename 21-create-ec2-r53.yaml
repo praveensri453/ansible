@@ -1,6 +1,6 @@
 - name: create ec2 and route 53 records
   hosts: local
-  var_files:
+  vars_files:
   - vars.yaml
   instances:
   - mysql
