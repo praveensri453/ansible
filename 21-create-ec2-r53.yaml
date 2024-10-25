@@ -22,4 +22,7 @@
     - mysql
     - backend
     - frontend
-    register: ec2_instances     
+    register: ec2_instances  
+  - name: print the output
+    ansible.builtin.debug:
+      mes: " {{ ec2_instances }}"     
