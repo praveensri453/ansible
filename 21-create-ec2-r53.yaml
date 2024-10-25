@@ -4,7 +4,7 @@
   - vars.yaml
   vars:
     zone: aathidya.online
-  task:
+  tasks:
   - name: ansible to install boto3 and botocore
     ansible.builtin.pip3.9:
      name:
