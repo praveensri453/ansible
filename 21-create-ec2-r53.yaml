@@ -2,8 +2,8 @@
   hosts: local
   vars_files:
   - vars.yaml
- 
-  zone: aathidya.online
+  vars:
+    zone: aathidya.online
   task:
   - name: ansible to install boto3 and botocore
     ansible.builtin.pip3.9:
